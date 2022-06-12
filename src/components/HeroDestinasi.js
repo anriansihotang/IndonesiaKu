@@ -13,7 +13,7 @@ const HeroDestinasi = (props) => {
           <div
             className="hero-section"
             style={{
-              background: `linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(70, 70, 70, 0.5)),url('/hero/${filteredDestinations.hero}')`,
+              background: `linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(70, 70, 70, 0.5)),url('/images/hero/${filteredDestinations.hero}')`,
             }}
           >
             <div className="hero-text">

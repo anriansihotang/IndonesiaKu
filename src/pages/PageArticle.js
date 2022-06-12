@@ -2,8 +2,7 @@ import React from "react";
 import "../styles/Article.css";
 import ItemDestination from "../components/itemArticle";
 import HeaderArticle from "../components/headerArticle";
-import Maps from "../components/mapsArticle";
-
+import Maps from "../components/MapsArticle";
 class PageArticle extends React.Component {
   render() {
     return (

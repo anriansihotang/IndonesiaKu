@@ -3,8 +3,7 @@ import "../styles/Destinasi.css";
 import data from "../data/destinasi.json";
 import parse from "html-react-parser";
 import { Col, Container, Row } from "react-bootstrap";
-import Maps from "./mapsArticle";
-
+import Maps from "./MapsArticle";
 
 const KontenDestinasi = (props) => {
   const destinations = data.destinations;

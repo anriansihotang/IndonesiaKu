@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Destinasi from "./pages/Destinasi";
 import Event from "./pages/Event";
 import PageArticle from "./pages/PageArticle";
-
+import "./styles/Header.css";
 import UMKM from "./pages/UMKM";
 import Header from "./components/Header";
 import ButtonScroll from "./components/ButtonScroll";
