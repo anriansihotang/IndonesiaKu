@@ -1,12 +1,18 @@
 /* nav */
 
-Nav {
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 80px;
+    width: -webkit-fill-available;
     padding: 0em 5em;
-    position: sticky;
+    position: absolute;
+}
+
+nav .nav-link {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
 }
 
 .active {
@@ -19,8 +25,9 @@ Nav {
     font-weight: bold;
     text-decoration: none;
 }
+
 .nav-list {
-	display:  flex;
-	text-align: center;
-	margin: 0;
+    display: flex;
+    text-align: center;
+    margin: 0;
 }
