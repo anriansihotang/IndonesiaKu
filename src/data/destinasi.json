@@ -284,6 +284,7 @@
         {
             "id": 7,
             "city": "Bandung",
+			"hero": "bandung.png",
             "intro1": "Siapa pun tak ada yang bisa menyangkal keindahan yang ditawarkan Pulau Dewata. Baru-baru ini, Bali didapuk menjadi destinasi paling populer di dunia versi Tripadvisor Travellers’ Choice tahun 2021. Tentu saja, bentangan alamnya yang indah berpadu sempurna dengan kearifan lokalnya yang istimewa menjadikan Bali sebagai destinasi #DiIndonesiaAja yang patut Sobat kunjungi setidaknya sekali seumur hidup!",
             "title2": "Rekomendasi Tempat Wisata yang Instagramable ",
             "intro2": "Ini merupakan rekomendasi wisata yang wajib anda ditangi jika di Bali dikarenakan sangat populer dan selalu menjadi prioritas wisatawan untuk dikunjungi saat pertama kali liburan ke pulau Bali.",
