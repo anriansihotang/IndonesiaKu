@@ -7,14 +7,12 @@ import Event from "./pages/Event";
 import PageArticle from "./pages/PageArticle";
 import "./styles/Header.css";
 import UMKM from "./pages/UMKM";
-import Header from "./components/Header";
 import ButtonScroll from "./components/ButtonScroll";
 import PageHotel from "./pages/PageHotel";
 
 function App() {
   return (
     <BrowserRouter>
-      <Header />
       <Routes>
         <Route path="/" exact element={<Home />} />{" "}
         <Route path="/destinasi/:id" exact element={<Destinasi />} />{" "}

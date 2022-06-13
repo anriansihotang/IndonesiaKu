@@ -20,7 +20,6 @@ class Header extends Component {
 										<NavDropdown.Item key={destinasi.id} href={`/destinasi/${destinasi.id}`}>{destinasi.city}</NavDropdown.Item>
 									))}
 								</NavDropdown>
-								<Nav.Link href="/Event">Event</Nav.Link>
 								<Nav.Link href="/Staycation">Staycation</Nav.Link>
 								<Nav.Link href="/Umkm">UMKM</Nav.Link>
 							</Nav>

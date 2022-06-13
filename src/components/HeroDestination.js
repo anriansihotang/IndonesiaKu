@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import "../styles/HeroDestination.css";
-class HeroDestination extends Component {
-  render() {
+
+const HeroDestination = () => {
     return (
       <div className="hero">
         <div className="hero-home">
@@ -22,7 +22,6 @@ class HeroDestination extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default HeroDestination;

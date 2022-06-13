@@ -41,7 +41,7 @@ class Recommendations extends Component {
             Temukan pernak penik pilihan yang dibuat langsung oleh warga sekitar
             destinasi{" "}
           </p>{" "}
-          <Row>
+          <Row >
             <Card style={{ width: "18rem" }} className="cardukm">
               <Card.Img variant="top" src={ukm1} className="imgukm" />
               <Card.Body>
