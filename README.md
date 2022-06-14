@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Penting Harap Baca
+Sebelum anda melakukan `npm start` diharapkan install berikut ini :
+npm i react-fade
+npm i react-redux
+npm i react-html-parser
+npm i react-date-range
+npm i react-toastify
+npm i react-date-range
+npm install @date-io/date-fns date-fns
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -6,7 +6,7 @@
   },
   "mostPicked": [
     {
-      "_id": "asd1293uasdads1",
+      "_id": "HotelMalang",
       "name": "Grand Mercure",
       "type": "Hotel",
       "imageUrl": "/images/Malang/image-mostpicked-malang.jpg",
@@ -16,7 +16,7 @@
       "unit": "night"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "Four Seasons Resort Bali",
       "name": "Four Seasons Resort Bali",
       "type": "Hotel",
       "imageUrl": "/images/Bali/image-mostpicked-bali.jpg",
@@ -26,7 +26,7 @@
       "unit": "night"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "Patuha Resort Ciwidey",
       "name": "Patuha Resort Ciwidey",
       "type": "Hotel",
       "imageUrl": "/images/Bandung/image-mostpicked-bandung.jpg",
@@ -36,7 +36,7 @@
       "unit": "night"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "POP! Hotel",
       "name": "POP! Hotel",
       "type": "Apartment",
       "imageUrl": "/images/Solo/image-mostpicked-solo.jpg",
@@ -46,7 +46,7 @@
       "unit": "night"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "Yogyakarta Mariott Hotel",
       "name": "Yogyakarta Mariott Hotel",
       "type": "Apartment",
       "imageUrl": "/images/Jogja/image-mostpicked-jogja.jpg",
@@ -56,7 +56,7 @@
       "unit": "night"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "The Wujil Resort",
       "name": "The Wujil Resort",
       "type": "Apartment",
       "imageUrl": "/images/Semarang/image-mostpicked-semarang.jpg",

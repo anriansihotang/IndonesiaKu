@@ -40,7 +40,6 @@ class Header extends Component {
 					</Nav>
 				</nav> */}
 	  
-			<Outlet />
 			</header>
 		)
 	}

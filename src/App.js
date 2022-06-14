@@ -1,6 +1,7 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 // import MainDestination from "./components/MainDestination";
 import Home from "./pages/Home";
+import { BrowserRouter as Router, Switch, Route,  } from "react-router-dom";
 // import Destination from "./pages/Destination";
 import Destinasi from "./pages/Destinasi";
 import Event from "./pages/Event";
@@ -9,20 +10,22 @@ import "./styles/Header.css";
 import UMKM from "./pages/UMKM";
 import ButtonScroll from "./components/ButtonScroll";
 import PageHotel from "./pages/PageHotel";
+import DetailPageStaycasion from "./pages/DetailPageStaycasion";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" exact element={<Home />} />{" "}
-        <Route path="/destinasi/:id" exact element={<Destinasi />} />{" "}
-        <Route path="/Event" element={<Event />} />{" "}
-        <Route path="/Staycation" element={<PageHotel />} />{" "}
-        <Route path="/UMKM" element={<UMKM />} />{" "}
-        <Route path="/PageArticle" exact element={<PageArticle />} />{" "}
-      </Routes>{" "}
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/destinasi/:id" component={Destinasi} />
+        <Route path="/properties/:id" component={DetailPageStaycasion} />
+        <Route path="/Event" component={Event} />
+        <Route path="/Staycation" component={PageHotel} />
+        <Route path="/UMKM" component={UMKM} />
+        <Route path="/PageArticle" component={PageArticle} />
+      </Switch>
       <ButtonScroll />
-    </BrowserRouter>
+    </Router>
   );
 }
 
