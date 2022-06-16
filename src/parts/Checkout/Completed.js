@@ -1,10 +1,9 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
-import CompletedIllustration from "assets/images/completed.jpg";
+
+import CompletedIllustration from "../../images/completed.jpg";
 
 export default function Completed() {
   return (
-    <Fade>
       <div className="container" style={{ marginBottom: 30 }}>
         <div className="row justify-content-center text-center">
           <div className="col-4">
@@ -20,6 +19,6 @@ export default function Completed() {
           </div>
         </div>
       </div>
-    </Fade>
+
   );
 }
