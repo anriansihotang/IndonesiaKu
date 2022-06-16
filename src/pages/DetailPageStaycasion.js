@@ -5,7 +5,7 @@ import FeaturedImage from '../components/FeaturedImage-Staycasion';
 import PageDetailDescription from '../components/PageDetailDescription-Staycasion';
 import BookingForm from '../parts/BookingForm';
 import Footer from '../components/Footer';
-
+import Header from '../components/Header';
 
 export default class DetailPageStaycasion extends Component {
   componentDidMount(){
