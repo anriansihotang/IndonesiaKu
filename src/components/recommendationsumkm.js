@@ -1,10 +1,12 @@
 import React, { Component } from "react";
-import { Container,Col  } from "react-bootstrap";
+import { Container,Col, ButtonGroup, Dropdown,DropdownButton } from "react-bootstrap";
 import UM from "../data/umkm";
 import "../styles/Recommendationsumkm.css";
+import data from '../data/umkm2.json';
 
 class Recommendationsumkm extends Component {
 	render() {
+		const umkms = data.umkms;
 		return (
 			<Container>
             <div className="reccomend-text">
@@ -31,6 +33,19 @@ class Recommendationsumkm extends Component {
 								);
 							})}			
 							<div></div>
+							
+							<>
+							<center>
+							<ButtonGroup>
+							{umkms.map((umkm) => (
+							 <DropdownButton as={ButtonGroup} title="UMKM" id="bg-nested-dropdown">
+								<Dropdown.Item key={umkm.id} href={`/destinasiS/${umkm.id}`}>{umkm.city}</Dropdown.Item>
+								</DropdownButton>
+								))}
+								</ButtonGroup>								
+						 </center>
+						 </>
+
 			</Container>
 		)
 	}
