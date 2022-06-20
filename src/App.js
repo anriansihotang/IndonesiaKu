@@ -9,7 +9,7 @@ import "./styles/Header.css";
 import UMKM from "./pages/UMKM";
 import ButtonScroll from "./components/ButtonScroll";
 import PageHotel from "./pages/PageHotel";
-
+import UMKMS from "./pages/UMKMS";
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +19,7 @@ function App() {
         <Route path="/Event" element={<Event />} />{" "}
         <Route path="/Staycation" element={<PageHotel />} />{" "}
         <Route path="/UMKM" element={<UMKM />} />{" "}
+        <Route path="/destinasiS/:id"  element={<UMKMS />} />{" "}
         <Route path="/PageArticle" exact element={<PageArticle />} />{" "}
       </Routes>{" "}
       <ButtonScroll />
