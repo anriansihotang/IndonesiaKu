@@ -6,7 +6,7 @@ const HeroDestinasi = (props) => {
   const destinations = data.destinations;
   return (
     <div>
-      {" "}
+      
       {destinations
         .filter((destinasi) => destinasi.id == props.destinasiID)
         .map((filteredDestinations) => (
@@ -17,10 +17,10 @@ const HeroDestinasi = (props) => {
             }}
           >
             <div className="hero-text">
-              <h1 className="header-text"> {filteredDestinations.tag} </h1>{" "}
-            </div>{" "}
+              <h1 className="header-text"> {filteredDestinations.tag} </h1>
+            </div>
           </div>
-        ))}{" "}
+        ))}
     </div>
   );
 };

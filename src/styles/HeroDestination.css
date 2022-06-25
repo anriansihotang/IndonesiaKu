@@ -6,6 +6,10 @@
     color: white;
 }
 
+.hero-text-home{
+	width: 100%;
+}
+
 .hero-home {
     display: flex;
     flex-direction: column;

@@ -1,12 +1,14 @@
 import React, { Component } from "react";
-import ButtonScroll from "../components/ButtonScroll";
 import Header from "../components/Header";
 import HeroDestination from "../components/HeroDestination";
 import MainDestination from "../components/MainDestination";
-import Recommendations from "../components/Recommendations";
 import Footer from "../components/Footer";
+import StayCationHome from "../components/StaycationHome";
+import EventHome from "../components/EventHome";
+import UmkmHome from "../components/UmkmHome"
+import RatingHome from "../components/RatingHome";
 
-class Destination extends Component {
+class Home extends Component {
 	
 
 	render() {
@@ -14,17 +16,15 @@ class Destination extends Component {
 			<div>
 				<Header />
 				<HeroDestination />
-				<section>
-					<MainDestination/>
-				</section>
-				<section>
-					<Recommendations/>
-				</section>
-				<ButtonScroll/>
-				<Footer/>
+				<MainDestination/>
+				<StayCationHome/>
+				<EventHome />
+				<UmkmHome/>
+				<RatingHome/>
+				<Footer />
 			</div>
 		)
 	}
 }
 
-export default Destination;
+export default Home;

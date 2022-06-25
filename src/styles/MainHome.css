@@ -1,49 +1,33 @@
-/** text destination **/
+/** teks destinasi **/
 
-.title-text {
-    margin-top: 80px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
-    text-align: center;
-    font-feature-settings: 'liga' off;
-    color: #5F7161;
+.judul-teks {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 60px;
+	text-align: center;
+	font-feature-settings: 'liga' off;
+	color: #5F7161;
+	margin-top: 80px;
+}
+.judul-deskprisi-teks {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #B0B0B0;
 }
 
-.descrip-text {
-    margin-top: 4px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #B0B0B0;
+/** Card destinasi **/
+
+.card-destinasi {
+	margin-top: 20px;
+	border-radius: 10px;
 }
-
-
-/** Card Destinantion**/
-
-.destination-image {
-    height: 372.08px;
-}
-
-.destination-img {
-    width: -webkit-fill-available;
-}
-
-.destination-text {
-    text-align: center;
-    text-decoration: none;
-}
-
-.card {
-    margin-bottom: 20px;
-}
-
 .card-destinasi,
 .card-image {
     min-height: 372.08px;
@@ -60,14 +44,11 @@
     margin-top: auto;
 }
 
-.card-text {
+.card-text-destinasi {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 21px;
     line-height: 29px;
-}
-
-a {
-    text-decoration: none;
+	color: white;
 }

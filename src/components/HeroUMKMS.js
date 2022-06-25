@@ -6,7 +6,7 @@ const HeroUMKMS = (props) => {
   const umkm = data.umkms;
   return (
     <div>
-      {" "}
+      
       {umkm
         .filter((umkm) => umkm.id == props.umkmID)
         .map((filteredumkm) => (
@@ -17,10 +17,10 @@ const HeroUMKMS = (props) => {
             }}
           >
             <div className="hero-text">
-              <h1 className="header-text"> {filteredumkm.tag} </h1>{" "}
-            </div>{" "}
+              <h1 className="header-text"> {filteredumkm.tag} </h1>
+            </div>
           </div>
-        ))}{" "}
+        ))}
     </div>
   );
 };

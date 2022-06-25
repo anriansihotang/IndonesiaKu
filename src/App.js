@@ -14,14 +14,14 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" exact element={<Home />} />{" "}
-        <Route path="/destinasi/:id" exact element={<Destinasi />} />{" "}
-        <Route path="/Event" element={<Event />} />{" "}
-        <Route path="/Staycation" element={<PageHotel />} />{" "}
-        <Route path="/UMKM" element={<UMKM />} />{" "}
-        <Route path="/destinasiS/:id"  element={<UMKMS />} />{" "}
-        <Route path="/PageArticle" exact element={<PageArticle />} />{" "}
-      </Routes>{" "}
+        <Route path="/" exact element={<Home />} />
+        <Route path="/destinasi/:id" exact element={<Destinasi />} />
+        <Route path="/Event" element={<Event />} />
+        <Route path="/Staycation" element={<PageHotel />} />
+        <Route path="/UMKM" element={<UMKM />} />
+        <Route path="/destinasiS/:id"  element={<UMKMS />} />
+        <Route path="/PageArticle" exact element={<PageArticle />} />
+      </Routes>
       <ButtonScroll />
     </BrowserRouter>
   );
