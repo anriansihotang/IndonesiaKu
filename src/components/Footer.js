@@ -1,7 +1,6 @@
 import React from "react";
 
 import Button from "../elements/Button";
-import BrandIcon from "./IconText-Staycasion";
 import '../assets/scss/style.scss';
 import Logo from "../images/logo/Indonesiaku.png"
 

@@ -1,7 +1,8 @@
 import React from "react";
 
 import Button from "../elements/Button";
-import BrandIcon from "../components/IconText-Staycasion";
+import Logo from "../images/logo/Indonesiaku.png"
+
 
 export default function Header(props) {
   const getNavLinkClass = (path) => {
@@ -10,22 +11,24 @@ export default function Header(props) {
 
   if (props.isCentered)
     return (
+
         <header className="spacing-sm">
           <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light">
               <Button className="brand-text-icon mx-auto" href="" type="link">
-                Stay<span className="text-gray-900">cation.</span>
+              <img src={Logo} alt="Logo Indonesiaku Apps" />
               </Button>
             </nav>
           </div>
         </header>
+  
     );
 
   return (
       <header className="spacing-sm">
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light">
-            <BrandIcon />
+          <img src={Logo} alt="Logo Indonesiaku Apps" />
             <div className="collapse navbar-collapse">
               <ul className="navbar-nav ml-auto">
                 <li className={`nav-item${getNavLinkClass("/")}`}>
@@ -53,5 +56,6 @@ export default function Header(props) {
           </nav>
         </div>
       </header>
+
   );
 }

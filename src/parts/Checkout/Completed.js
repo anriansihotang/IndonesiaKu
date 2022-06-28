@@ -1,6 +1,5 @@
 import React from "react";
-
-import CompletedIllustration from "../../images/completed.jpg";
+import CompletedIllustration from "../../assets/images/completed.jpg";
 
 export default function Completed() {
   return (
@@ -19,6 +18,5 @@ export default function Completed() {
           </div>
         </div>
       </div>
-
   );
 }

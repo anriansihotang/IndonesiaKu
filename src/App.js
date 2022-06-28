@@ -10,7 +10,7 @@ import "./styles/Header.css";
 import UMKM from "./pages/UMKM";
 import ButtonScroll from "./components/ButtonScroll";
 import PageHotel from "./pages/PageHotel";
-import DetailPageStaycasion from "./pages/DetailPageStaycasion";
+import DetailPageStaycasion from "./pages/DetailPage";
 
 import Checkout from "./pages/Checkout";
 

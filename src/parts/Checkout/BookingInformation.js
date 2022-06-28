@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import { InputText } from "../../elements/Form";
 
 export default function BookingInformation(props) {

@@ -2,8 +2,8 @@ import React from "react";
 
 import { InputText, InputFile } from "../../elements/Form";
 
-import logoBca from "../../images/logo_bca.jpg";
-import logoMandiri from "../../images/logo_mandiri.jpg";
+import logoBca from "../../assets/images/logo-bca.jpg";
+import logoMandiri from "../../assets/images/logo-mandiri.jpg";
 
 export default function Payment(props) {
   const { data, ItemDetails, checkout } = props;

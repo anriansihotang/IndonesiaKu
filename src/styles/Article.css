@@ -61,7 +61,7 @@ main {
     padding: 5%;
     text-align: justify;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr;
     grid-gap: 25px;
 }
 

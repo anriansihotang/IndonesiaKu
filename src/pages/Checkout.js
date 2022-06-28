@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-
-import Header from "../parts/Header";
+import Header from "../components/Header-staycasion";
 import Button from "../elements/Button";
 import Stepper, {
   Numbering,
@@ -13,7 +12,6 @@ import Stepper, {
 import BookingInformation from "../parts/Checkout/BookingInformation";
 import Payment from "../parts/Checkout/Payment";
 import Completed from "../parts/Checkout/Completed";
-
 import { submitBooking } from "../store/actions/checkout";
 
 class Checkout extends Component {
@@ -128,9 +126,9 @@ class Checkout extends Component {
 
     return (
       <>
-        <Header isCentered />
-
-        <Stepper steps={steps} initialStep="payment">
+        <Header />
+        <br/><br/><br/><br/>
+        <Stepper steps={steps} initialStep="bookingInformation">
           {(prevStep, nextStep, CurrentStep, steps) => (
             <>
               <Numbering
@@ -159,6 +157,7 @@ class Checkout extends Component {
                         >
                           Continue to Book
                         </Button>
+
                     )}
                   <Button
                     className="btn"
@@ -187,6 +186,7 @@ class Checkout extends Component {
                         >
                           Continue to Book
                         </Button>
+
                     )}
                   <Button
                     className="btn"
