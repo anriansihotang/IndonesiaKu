@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Outlet} from "react-router-dom";
-import Logo from "../images/logo/Indonesiaku.png"
+import Logo from "../assets/images/logo/Indonesiaku.png"
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
 import data from '../data/destinasi.json';
 
