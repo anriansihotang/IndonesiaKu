@@ -9,9 +9,9 @@ class Header extends Component {
 		return (
 			<header>
 				 <Navbar collapseOnSelect expand="lg" variant="dark">
-					<Container>
+					<Container fluid>
 						<Navbar.Brand href="/"><img src={Logo} alt="Logo Indonesiaku Apps" /></Navbar.Brand>
-						<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+						<Navbar.Toggle className="bg" style={{color: 'black'}} aria-controls="responsive-navbar-nav" />
 						<Navbar.Collapse id="responsive-navbar-nav">
 							<Nav className="ms-auto">
 								<NavDropdown title="Destinasi" id="collasible-nav-dropdown">
@@ -24,21 +24,7 @@ class Header extends Component {
 							</Nav>
 						</Navbar.Collapse>
 					</Container>
-				</Navbar>
-				{/* <nav >
-					<a href="/" className="logo">
-						<img src={Logo} alt="Logo Indonesiaku Apps" />
-					</a>
-					<Nav className="justify-content-end">
-					<Nav.Item className="nav-list justify-content-end">
-						<Nav.Link href="/" className="active nav-link" id="active">Destination</Nav.Link>
-						<Nav.Link href="/Event" className="nav-link">Event</Nav.Link>
-						<Nav.Link href="/Staycation" className="nav-link">Staycation</Nav.Link>
-						<Nav.Link href="/UMKM" className="nav-link">UMKM</Nav.Link>
-					</Nav.Item>
-					</Nav>
-				</nav> */}
-	  
+				</Navbar>	  
 			</header>
 		)
 	}

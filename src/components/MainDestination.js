@@ -10,34 +10,37 @@ class MainDestination extends Component {
       <Container>
         <Row className="justify-content-md-center">
           <Col md="auto">
-            <h2 className="title-text"> Destinasi Pilihan </h2>
+            <h2 className="title-text"> Destinasi Pilihan </h2>{" "}
             <p className="descrip-text">
-              Temukan keindahan Indonesia dengan mengunjungi destinasi pilihan
-            </p>
-          </Col>
-        </Row>
-        <Row>        
+              Temukan keindahan Indonesia dengan mengunjungi destinasi pilihan{" "}
+            </p>{" "}
+          </Col>{" "}
+        </Row>{" "}
+        <Row>
+          {" "}
           {destination.map((value, index) => {
             return (
-              <Col lg="3" key={value.id}>
+              <Col sm="12" md="6" lg="4" xl="3" key={value.id}>
                 <Link to={`/destinasi/${value.id}`}>
                   <Card className="bg-dark text-white card-destinasi">
                     <Card.Img
                       className="card-image"
                       src={value.gambar}
                       alt="Card image"
+                      aria-label={`Card image ${value.name}`}
                     />
                     <Card.ImgOverlay>
-                      <Card.Text className="text-center">
-                        {value.nama}
-                      </Card.Text>
-                    </Card.ImgOverlay>
-                  </Card>
-                </Link>
+                      <Card.Text className="text-center card-text-destinasi">
+                        {" "}
+                        {value.nama}{" "}
+                      </Card.Text>{" "}
+                    </Card.ImgOverlay>{" "}
+                  </Card>{" "}
+                </Link>{" "}
               </Col>
             );
-          })}
-        </Row>
+          })}{" "}
+        </Row>{" "}
       </Container>
     );
   }
