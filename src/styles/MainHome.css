@@ -1,33 +1,36 @@
 /** teks destinasi **/
 
 .judul-teks {
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 40px;
-	line-height: 60px;
-	text-align: center;
-	font-feature-settings: 'liga' off;
-	color: #5F7161;
-	margin-top: 80px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #5F7161;
+    margin-top: 80px;
 }
+
 .judul-deskprisi-teks {
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 150%;
-	text-align: center;
-	letter-spacing: 0.03em;
-	color: #B0B0B0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #B0B0B0;
 }
+
 
 /** Card destinasi **/
 
 .card-destinasi {
-	margin-top: 20px;
-	border-radius: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
+
 .card-destinasi,
 .card-image {
     min-height: 372.08px;
@@ -50,5 +53,5 @@
     font-weight: 700;
     font-size: 21px;
     line-height: 29px;
-	color: white;
+    color: white;
 }

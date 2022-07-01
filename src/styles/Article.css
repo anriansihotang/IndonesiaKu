@@ -101,10 +101,17 @@ p {
 }
 
 iframe {
+    position: sticky;
+    position: -webkit-sticky;
     border-radius: 10px;
     max-width: 30vw;
     max-height: 23vw;
-    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.display {
+    padding-top: 10px;
 }
 
 div hr {

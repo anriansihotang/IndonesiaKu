@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import HeroDestination from "../components/HeroDestination";
 import MainDestination from "../components/MainDestination";
 import Recommendations from "../components/Recommendations";
+
 class Destination extends Component {
 	render() {
 		return (
@@ -11,6 +12,7 @@ class Destination extends Component {
 				<HeroDestination />
 				<MainDestination/>
 				<Recommendations/>
+				
 			</>
 		)
 	}
