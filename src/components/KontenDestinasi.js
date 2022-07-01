@@ -41,8 +41,8 @@ const KontenDestinasi = (props) => {
                       <p className="nama-destinasi">{id}. {name}</p>
                       <img
                         className="img-wisata"
-                        alt={`Foto wisata ${name}`}
-                        src={require(`../images/other/${img_folder}/${picture}`)}
+                        alt=""
+                        src={require(`../assets/images/other/${img_folder}/${picture}`)}
                       ></img>
                       <div className="description">{parse(description)}</div>
                       <p className="workingHours">
