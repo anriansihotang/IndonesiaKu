@@ -1,0 +1,46 @@
+.rating-home {
+	margin-top: 126px;
+	margin-bottom: 66px;
+}
+.rating-img-home {
+	border-radius: 100px 15px 15px 15px;
+	width: 365.98px;
+	height: 501.88px;
+}
+.judul-rating-home {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #152C5B;
+	padding-top: 100px;
+}
+.bintang-rating-home{
+	padding-top: 40px;
+}
+.teks-rating-home {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 48px;
+	color: #152C5B;
+}
+.nama-rating-home{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	color: #B0B0B0;
+}
+.button-rating-home {
+	background: #6D8B74;
+	padding: 28px 10px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-size: 18px;
+	color: #FFFFFF;
+	border: none;
+	box-sizing: border-box;
+}

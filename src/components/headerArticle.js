@@ -14,9 +14,9 @@ export default class HeaderArticle extends React.Component {render(){
           <ul className="nav-list">
             <li>
               <a href="/Home" class="active nav-link" id="active">
-                Destination{" "}
-              </a>{" "}
-            </li>{" "}
+                Destination
+              </a>
+            </li>
             <li>
               <a href="/Event" className="nav-link">
                 Event

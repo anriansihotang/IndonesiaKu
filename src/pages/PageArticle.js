@@ -9,11 +9,11 @@ class PageArticle extends React.Component {
         <main>
           <article>
             <ItemDestination />
-          </article>{" "}
+          </article>
           <div id="map-canvas">
             <Maps />
-          </div>{" "}
-        </main>{" "}
+          </div>
+        </main>
       </body>
     );
   }

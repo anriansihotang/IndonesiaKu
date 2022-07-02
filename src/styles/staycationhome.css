@@ -1,0 +1,59 @@
+.staycation-home-card {
+	margin-top: 60px;
+}
+.staycation-home-img {
+	border-radius: 10px 0px 0px 10px;
+}
+
+.staycation-home-text h5{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	font-feature-settings: 'liga' off;
+	color: #FFD659;
+}
+
+.staycation-home-text h3{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 60px;
+	letter-spacing: 0.05em;
+	font-feature-settings: 'liga' off;
+	color: #475549;
+	margin-top: 8px;
+}
+
+.staycation-home-text h6{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	font-feature-settings: 'liga' off;
+	color: rgba(51, 51, 51, 0.75);
+	margin-top: 5px;
+}
+
+.staycation-home-text p{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: justify;
+	font-feature-settings: 'liga' off;
+	color: rgba(51, 51, 51, 0.75);
+	margin-top: 28px;
+}
+.button-home {
+	margin-top: 10px;
+	width: 232.3px;
+	height: 58.46px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #6D8B74;
+}
