@@ -35,7 +35,6 @@
 }
 
 .titleWelcome {
-    width: 600px;
     height: 144px;
     left: 123px;
     top: 217px;
@@ -60,4 +59,16 @@
     /* or 24px */
     display: flex;
     letter-spacing: 0.03em;
+}
+@media screen and (max-width:680px){
+	.titleWelcome {
+		font-family: 'Poppins';
+		font-style: normal;
+		font-size: 32px;
+	}
+	
+	.text-subtitle {
+		font-size: 20	px;
+		width: 100%;
+	}
 }

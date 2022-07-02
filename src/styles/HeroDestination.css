@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
     padding-left: 2em;
     margin-left: 3.5em;
 }
@@ -33,10 +32,6 @@
 }
 
 .titleWelcome {
-    width: 326px;
-    height: 144px;
-    left: 123px;
-    top: 217px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -45,10 +40,6 @@
 }
 
 .text-subtitle {
-    width: 534px;
-    height: 96px;
-    left: 125px;
-    top: 381px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;

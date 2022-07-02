@@ -7,7 +7,7 @@ const HeroDestination = () => {
       <div className="hero-home">
         <div className="text-title">
           <h1 className="titleWelcome">
-            Welcome to Indonesia <span> ku </span>!
+            Welcome to <br/>Indonesia <span> ku </span>!
           </h1>
         </div>
         <div className="text-subtitle">
