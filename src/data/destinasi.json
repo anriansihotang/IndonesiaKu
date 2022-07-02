@@ -2,7 +2,7 @@
     "destinations": [{
             "id": 1,
             "city": "Jakarta",
-            "hero": "jakarta.png",
+            "hero": "/images/hero/jakarta.png",
             "tag": "#Indonesia Capital City",
             "intro1": "Siapa yang menyangka bahwa sebuah kota metropolitan sekaligus ibu kota Indonesia ini memiliki sederet wisata yang ikonik. Kota dengan banyak pencakar langit ini memiliki pemandangan yang indah terutama di malam harinya. Karena itu, banyak spot-spot instagrammable di sini meskipun pesonanya bukan ada keindahan alamnya. Bukan berarti sama sekali tidak memiliki penghijauan ya, sekarang banyak juga di tengah kota sengaja dibangung taman kota dan menggalaakkan tempat wisata yang sudah ada sejak daman jadul. Berikut mimin rekomendasikan wisata menarik beberapa yang bisa mempercantik album kamu",
             "title2": "Daftar wisata di Jakarta yang wajib dikunjungi",
@@ -71,7 +71,7 @@
         {
             "id": 2,
             "city": "Bali",
-            "hero": "bali.png",
+            "hero": "/images/hero/bali.png",
             "tag": "#The Island of Gods",
             "intro1": "<p>Siapa pun tak ada yang bisa menyangkal keindahan yang ditawarkan Pulau Dewata. Baru-baru ini, Bali didapuk menjadi destinasi paling populer di dunia versi Tripadvisor Travellers’ Choice tahun 2021. Tentu saja, bentangan alamnya yang indah berpadu sempurna dengan kearifan lokalnya yang istimewa menjadikan Bali sebagai destinasi #DiIndonesiaAja yang patut Sobat kunjungi setidaknya sekali seumur hidup!</p>",
             "title2": "Daftar wisata di Bali yang wajib dikunjungi",
@@ -127,7 +127,7 @@
         {
             "id": 3,
             "city": "Yogyakarta",
-            "hero": "jogja.png",
+            "hero": "/images/hero/jogja.png",
             "tag": "#Jogja The Neverending Asia",
             "intro1": "Bersama dengan kota sahabatnya Surakarta (Solo), Yogyakarta adalah asal mula peradaban di Tanah Jawa. Kota ini pernah menjadi singgasana yang menghasilkan Candi Borobudur and Prambanan yang begitu megah pada abad ke-8 dan ke-9 serta tempat berkuasanya kerajaan Mataram pada abad ke-16 dan ke-17.",
             "title2": "Kenapa Yogyakarta Wajib Untuk Dikunjungi?",
@@ -185,7 +185,7 @@
         {
             "id": 4,
             "city": "Semarang",
-            "hero": "semarang.png",
+            "hero": "/images/hero/semarang.png",
             "tag": "#The Port of Java",
             "intro1": "Pertumbuhan Kota Semarang tidak lepas dari kondisi geografis Semarang yang merupakan wilayah pesisir dengan adanya pelabuhan. Pelabuhan menjadi cikal bakal pertumbuhan Kota Semarang hingga menjadi wilayah perkotaan saat ini. Oleh karena itu kenapa Kota in dijuluki The Port of Java",
             "title2": "Rekomendasi Tempat Wisata yang Instagramable",
@@ -244,7 +244,7 @@
         {
             "id": 5,
             "city": "Lombok",
-            "hero": "lombok.png",
+            "hero": "/images/hero/lombok.png",
             "tag": "#A Thousand Mosques",
             "intro1": "Lombok merupakan salah satu destinasi wisata favorit di Indonesia. Pesona yang ditawarkan beragam, mulai dari pantai hingga pegunungan. Oleh karena itu, tak salah jika Lombok kerap jadi masuk daftar impian para wisatawan untuk berkunjung dan berlibur di sana. Pulau dengan julukan seribu masjid ini sangat terkenal dengan keapikan pantainya.",
             "title2": "Rekomendasi Tempat Wisata yang Apik di Lombok ",
@@ -314,7 +314,7 @@
         {
             "id": 6,
             "city": "NTT",
-            "hero": "ntt.jpg",
+            "hero": "/images/hero/ntt.jpg",
             "tag": "#A Thousand Hills",
             "intro1": "Nusa Tenggara Timur (NTT) sempat dinobatkan sebagai destinasi terbaik di dunia versi Lonely Planet. Berdasarkan kategori bernama Best Value, melihat Nusa Tenggara Timur merupakan destinasi yang akan sustainable. Gak heran, karena NTT menyimpan banyak keindahan alam yang menawan.Kamu bisa menjadikan NTT sebagai bucket list liburanmu selanjutnya.Ada apa saja di NTT ? Yuk, simak daftarnya di bawah ini!",
             "title2": "Rekomendasi Tempat Wisata yang Instagramable ",
@@ -384,7 +384,7 @@
         {
             "id": 7,
             "city": "Bandung",
-            "hero": "bandung.png",
+            "hero": "/images/hero/bandung.png",
             "tag": "#Fire Sea Bandung",
             "intro1": "Siapa pun tak ada yang bisa menyangkal keindahan yang ditawarkan Kota Bandung. Baru-baru ini, Bandung juga menjadi destinasi paling populer kota. Tentu saja, bentangan alamnya yang indah berpadu sempurna dengan kearifan lokalnya dan kentalnya budaya betawi yang istimewa menjadikan Bandung sebagai destinasi #DiIndonesiaAja yang patut Sobat kunjungi setidaknya sekali seumur hidup!",
             "title2": "Rekomendasi Tempat Wisata yang Instagramable di Bandung",
@@ -455,7 +455,7 @@
         {
             "id": 8,
             "city": "Malang",
-            "hero": "malang.png",
+            "hero": "/images/hero/malang.png",
             "tag": "#Apple City",
             "intro1": "Kota Malang. Ya kota yang satu ini terkenal dengan produksi buahnya berupa apel malang. Kota Malang merupakan salah satu kota tujuan wisata sekaligus kota terbesar kedua di Jawa Timur setelah Surabaya.Malang terkenal dengan tersebarnya berbagai tempat wisata danhawa sejuk di Jawa Timur. Biasanya pengunjung yang berasal dari Jawa Timur, selain Malang, datang ke sini untuk healing. Malang Raya (Kota Malang, Kabupaten Makang, dan Kota Batu) tersebar dengan coban atau Bahasa Indonesianya air terjun.",
             "title2": "Rekomendasi Tempat Wisata Apik di Malang Raya ",
