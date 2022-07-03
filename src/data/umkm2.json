@@ -10,7 +10,7 @@
             "title2": "Rekomendasi UMKM legenda yang ada di Surakarta",
             "intro2": "Ini merupakan rekomendasi UMKM Legenda yang wajib anda kunjungi ketika berkunjung ke surakarta",
             "maps": "https://www.google.com/maps/d/u/0/embed?mid=1D2VKs95m8eoywScEVrEW0mKhXZcW2hA&ehbc=2E312F",
-            "destination": [{
+            "umkm": [{
                     "id": "1",
                     "name": "Serabi Notosuman",
                     "img_folder": "bali",
@@ -66,7 +66,7 @@
             "title2": "Cek 5 UMKM Jempolan di Bandung Ini!",
             "intro2": "Ini merupakan rekomendasi UMKM yang wajib anda ditangi jika di Bandung dikarenakan sangat populer dan selalu menjadi prioritas wisatawan untuk dikunjungi saat pertama kali liburan ke Bandung.",
             "maps": "https://www.google.com/maps/d/u/0/embed?mid=1D2VKs95m8eoywScEVrEW0mKhXZcW2hA&ehbc=2E312F",
-            "destination": [{
+            "umkm": [{
                     "id": "1",
                     "name": " SamaSama Cakery",
                     "img_folder": "bali",
@@ -122,7 +122,7 @@
             "title2": "Simak UMKM unik dari tanah NTT",
             "intro2": "Ini merupakan rekomendasi UMKM yang wajib anda ditangi jika di NTT dikarenakan sangat populer dan selalu menjadi prioritas wisatawan untuk dikunjungi saat pertama kali liburan ke NTT.",
             "maps": "https://www.google.com/maps/d/u/0/embed?mid=1ZsTv82y0TMkOmuSZHQ-1dB7i5ehgSl8&ehbc=2E312F",
-            "destination": [{
+            "umkm": [{
                     "id": "1",
                     "name": "Jagung Bose",
                     "img_folder": "jogja",
