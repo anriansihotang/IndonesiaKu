@@ -4,7 +4,7 @@
         {
             "id": 1,
             "city": "Surakarta",
-            "hero": "a.jpg",
+            "hero": "bali.png",
             "tag": "#UMKM Surakarta",
             "intro1": "Surakarta Terkenal sebagai destinasi Wisata kuliner populer. Kenikmatan dari makanan khas solo  kerap menyisakan kerinduan di kota ini, ketika berkunjung ke surakarta, kamu wajib membeli beberapa umkm legenda yang ada di surakarta untuk dijadikan oleh-oleh untuk diberikan ke kerabat ",
             "title2": "Rekomendasi UMKM legenda yang ada di Surakarta",
@@ -116,8 +116,8 @@
         {
             "id": 3,
             "city": "NTT",
-            "hero": "bb.jpg",
-            "tag": "#UMKM NTT",
+            "hero": "lombok.png",
+            "tag": "#UMKM Lombok",
             "intro1": "Mungkin banyak yang belum tahu makanan khas dari NTT dan NTB yang memeiliki kelezatan dan keunikan tersendiri. Makanan khas daerah memeiliki rasa yang berbeda dan keunikan dari bentuk masakan tersebut. Jangan diragukan lagi kualitas rasa, yang pastinya enak dilidah dan bisa dikenang untuk nantinya. Buat anak milenial sekarang jangan sering makanan yang cepat saji terus, nih ada makanan khas yang tidak kalah enak dari rasa makanan restaurant. Berikut makanan khas NTT dan NTB.",
             "title2": "Simak UMKM unik dari tanah NTT",
             "intro2": "Ini merupakan rekomendasi UMKM yang wajib anda ditangi jika di NTT dikarenakan sangat populer dan selalu menjadi prioritas wisatawan untuk dikunjungi saat pertama kali liburan ke NTT.",
@@ -125,33 +125,52 @@
             "umkm": [{
                     "id": "1",
                     "name": "Jagung Bose",
-                    "img_folder": "jogja",
-                    "picture": "NTT.png",
+                    "img_folder": "malang",
+                    "picture": "coban_sewu.png",
                     "description": "Jika kalian main ke Nusa Tenggara Tinur belum mencicipi makanan khas ini, brarti kalian belum pernah ke NTT. Pembuatan jagung bose ini melalu proses yang cukup panjang dan sekilas kita melihat bentuk dari jagung bose ini seperti mirip dengan kolak. Jagung bose ini biasanya disajikan dalam acara-acara besar. Sensasi manis dan asin dari jagung bose ini membuat orang yang mencium aromanya merasa kenyang. Jagung bose ini bisa kita jumpai di tanah flores, dan jagung bose bisa dihadirkan seperti sup atau burbur untuk pengganti nasi. Selain itu jagung bose juga bisa ditambahkan sayur-sayuran dan ikan untuk menyesuaikan dengan lidah.",
+                    "open": "06.00",
+                    "close": "16.00",
+                    "ticketPrice": 10000,
                     "rating": 4.6,
-                    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63245.97077191143!2d110.33982533136371!3d-7.803249010407903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5787bd5b6bc5%3A0x21723fd4d3684f71!2sYogyakarta%2C%20Yogyakarta%20City%2C%20Special%20Region%20of%20Yogyakarta!5e0!3m2!1sen!2sid!4v1654506353683!5m2!1sen!2sid"
+                    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505145.82621205127!2d114.79069601611943!3d-8.455371265745528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd141d3e8100fa1%3A0x24910fb14b24e690!2sBali!5e0!3m2!1sen!2sid!4v1654221001425!5m2!1sen!2sid"
                 },
                 {
                     "id": "2",
-                    "name": "Catemak",
-                    "img_folder": "jogja",
-                    "picture": "NTT2.png",
+                    "name": "Coban Jahe",
+                    "img_folder": "malang",
+                    "picture": "coban_jahe.png",
                     "description": "Katemak juga makanan khas yang berasal dari nusa tenggara timur. Katemak sendiri mempunyai bahan dasar yaitu biji jagung yang direbus bersamaan dengan kacang-kacangan, daun dan buah pepaya, atau bisa juga dengan daun dan buah labu. Katemak ini biasanya dihidangkan dengan sambal luat dan juga ikan teri atau ikan asin.",
+                    "open": "10.00",
+                    "close": "16.00",
+                    "ticketPrice": 10000,
                     "rating": 4.6,
-                    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63245.97077191143!2d110.33982533136371!3d-7.803249010407903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5787bd5b6bc5%3A0x21723fd4d3684f71!2sYogyakarta%2C%20Yogyakarta%20City%2C%20Special%20Region%20of%20Yogyakarta!5e0!3m2!1sen!2sid!4v1654506353683!5m2!1sen!2sid"
+                    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505145.82621205127!2d114.79069601611943!3d-8.455371265745528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd141d3e8100fa1%3A0x24910fb14b24e690!2sBali!5e0!3m2!1sen!2sid!4v1654221001425!5m2!1sen!2sid"
                 },
                 {
                     "id": "3",
                     "name": "Se’i",
-                    "img_folder": "jogja",
-                    "picture": "NTT3.png",
+                    "img_folder": "malang",
+                    "picture": "bon_pring.png",
                     "description": "Makanan khas yang satu ini memilki penyajian yang proses pembuatanya berbeda. Se’i adalah daging yang diawetkan dengan cara asap dan panas yang dibuat dari pembakaran kayu. Daging se’i diasap karena dalam pengasapan menggunakan kayu dapat membunuh jamur dan bakteri dalam daging. Awalnya daging se’i adalah daging rusa, akan tetapi sekarang rusa dilindungi dan langka akhirnya masyarakat ntt menggantinya dengan daging sapi atau babi. Teknik pengasapan daging se’i tidak menggunakan sembarang kayu, jika menggunakan kayu sembarangan akan merusak cita rasa dari daging sei tersebut, mangkannya masyarakat ntt menggunakan kayu kosambi untuk pengasapan.",
-                    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63245.97077191143!2d110.33982533136371!3d-7.803249010407903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5787bd5b6bc5%3A0x21723fd4d3684f71!2sYogyakarta%2C%20Yogyakarta%20City%2C%20Special%20Region%20of%20Yogyakarta!5e0!3m2!1sen!2sid!4v1654506353683!5m2!1sen!2sid"
-                }        
-                
+                    "open": "08.00",
+                    "close": "17.00",
+                    "ticketPrice": "5.000 - 10.000",
+                    "rating": 4.6,
+                    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505145.82621205127!2d114.79069601611943!3d-8.455371265745528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd141d3e8100fa1%3A0x24910fb14b24e690!2sBali!5e0!3m2!1sen!2sid!4v1654221001425!5m2!1sen!2sid"
+                },
+                {
+                    "id": "4",
+                    "name": "Perkebunan Teh Wonosari",
+                    "img_folder": "malang",
+                    "picture": "teh_wonosari.png",
+                    "description": "<p>Di lereng Gunung Arjuna, terdapat kawasan sejuk dan tenang tempat di mana perkebunan teh yang dikelola PT Perkebunan Nusantara berada. Tak sekadar untuk menghasilkan daun teh berkualitas saja, namun perkebunan ini juga difungsikan sebagai agrowisata yang terbuka untuk umum, terutama bagi keluarga. Berbagai aktivitas seru dapat Anda lakukan di sini, seperti tantangan outbound, panjat dinding, flying fox, juga paintball. Jika Anda ingin mencari hiburan yang juga mendidik, maka bisa mengikuti paket tur di mana Anda akan diajak berkeliling perkebunan sambil dijelaskan segala hal tentang proses produksi dari pemilihan daun teh sampai pengemasan teh siap konsumsi. </p><p>Puas mengelilingi kebun teh seharian, spot asik lain panorama Malang Bukit Kuneer yang lokasinya sedikit tersembunyi di tengah-tengah kebun teh berusia lebih dari seabad ini. Jangan lewatkan kesempatan untuk berfoto di rumah pohon atau jembatan kayunya yang Instagramable abis!</p>",
+                    "open": "07.00",
+                    "close": "17.00",
+                    "ticketPrice": "10.000",
+                    "rating": 4.6,
+                    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505145.82621205127!2d114.79069601611943!3d-8.455371265745528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd141d3e8100fa1%3A0x24910fb14b24e690!2sBali!5e0!3m2!1sen!2sid!4v1654221001425!5m2!1sen!2sid"
+                }
             ]
-            
         }
-            ]
-        }
-
+    ]
+}
