@@ -11,6 +11,7 @@ import UMKM from "./pages/UMKM";
 import ButtonScroll from "./components/ButtonScroll";
 import PageHotel from "./pages/PageHotel";
 import DetailPageStaycasion from "./pages/DetailPage";
+import UMKMS from "./pages/UMKMS";
 
 import Checkout from "./pages/Checkout";
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/Staycation" component={PageHotel} />
         <Route path="/checkout" component={Checkout} />
         <Route path="/UMKM" component={UMKM} />
+         <Route path="/destinasiS/:id"  element={<UMKMS />} />{" "}
         <Route path="/PageArticle" component={PageArticle} />
       </Switch>
       <ButtonScroll />
