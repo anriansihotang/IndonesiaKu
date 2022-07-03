@@ -1,49 +1,71 @@
-/* eslint-disable eqeqeq */
 import React from "react";
 import "../styles/Destinasi.css";
 import data from "../data/umkm2.json";
 import parse from "html-react-parser";
-import { Container,Col, ButtonGroup, Dropdown,DropdownButton, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+import Maps from "./MapsArticle";
+
 const KontenUMKM = (props) => {
   const umkms = data.umkms;
   return (
     <Container>
+      {" "}
       {umkms
         .filter((umkm) => umkm.id == props.umkmID)
-        .map((filteredumkms) => (
-          <Row className="mt-5 mb-4">
-            <Col lg="8">
-              <p className="title">{filteredumkms.city}</p>
-              <p className="konten-intro">{filteredumkms.intro1}</p>
-              <p className="title2">{filteredumkms.title2}</p>
-              <p className="konten-intro">{filteredumkms.intro2}</p>
-              {filteredumkms.destination.map((filteredumkm) => (
-                <div>
-                  <p className="nama-destinasi">{filteredumkm.name}</p>
-                  <img
-                    className="img-wisata"
-                    alt=""
-                    src={require(`../images/other/${filteredumkm.img_folder}/${filteredumkm.picture}`)}
-                  ></img>
-                  <div className="description">
-                    {parse(filteredumkm.description)}
-                  </div>
-                </div>
-              ))}
-            </Col>
-          </Row>
-        ))}
-        							<>
-							<center>
-							<ButtonGroup>
-							{umkms.map((umkm) => (
-							 <DropdownButton as={ButtonGroup} title="UMKM" id="bg-nested-dropdown">
-								<Dropdown.Item key={umkm.id} href={`/Destinasi/${umkm.id}`}>{umkm.city}</Dropdown.Item>
-								</DropdownButton>
-								))}
-								</ButtonGroup>								
-						 </center>
-						 </>
+        .map(
+          (
+            {
+              city,
+              intro1,
+              title2,
+              intro2,
+              umkm,
+              maps,
+            } = filteredumkms,
+            index
+          ) => (
+            <Row className="mt-5 mb-4" key={`destination-city-${index}`}>
+              <Col lg="8">
+                <p className="title"> {city} </p>{" "}
+                <p className="konten-intro"> {intro1} </p>{" "}
+                <p className="title2"> {title2} </p>{" "}
+                <p className="konten-intro"> {parse(intro2)} </p>{" "}
+                {umkm.map(
+                  (
+                    {
+                      id,
+                      name,
+                      img_folder,
+                      picture,
+                      description,
+                      open,
+                      close,
+                      ticketPrice,
+                    } = filteredumkm,
+                    index
+                  ) => (
+                    <div key={`destination-item-${index}`}>
+                      <p className="nama-destinasi">
+                        {" "}
+                        {id}. {name}{" "}
+                      </p>{" "}
+                      <img
+                        className="img-wisata"
+                        alt=""
+                        src={require(`../assets/images/other/${img_folder}/${picture}`)}
+                      ></img>{" "}
+                      <div className="description"> {parse(description)} </div>{" "}
+                      
+                    </div>
+                  )
+                )}{" "}
+              </Col>{" "}
+              <Col lg="4">
+                <Maps maps={maps} />{" "}
+              </Col>{" "}
+            </Row>
+          )
+        )}{" "}
     </Container>
   );
 };
