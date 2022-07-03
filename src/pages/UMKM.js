@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import HeroDestination from "../components/HeroDestination";
-import MainUMKM from "../components/MainUMKM";
 import Recommendationsumkm from "../components/recommendationsumkm";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -14,9 +13,6 @@ class UMKM extends Component {
 				<Header />
 	
 				<HeroDestination />
-
-
-				<MainUMKM/>
 				< MainUMK/>
 				<section>
 				<Recommendationsumkm/>
