@@ -26,7 +26,7 @@ function App() {
         <Route path="/Staycation" component={PageHotel} />
         <Route path="/checkout" component={Checkout} />
         <Route path="/UMKM" component={UMKM} />
-         <Route path="/destinasiS/:id"  element={<UMKMS />} />{" "}
+        <Route path="/umkms/:id" exact element={<UMKMS />} />
         <Route path="/PageArticle" component={PageArticle} />
       </Switch>
       <ButtonScroll />
