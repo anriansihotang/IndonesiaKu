@@ -20,7 +20,7 @@ class MainUMK extends Component {
           {UMK.map((value, index) => {
             return (
               <Col lg="3" key={value.id}>
-                <Link to={`/destinasi/${value.id}`}>
+                <Link to={`/umkms/${value.id}`}>
                   <Card className="bg-dark text-white card-destinasi">
                     <Card.Img
                       className="card-image"
