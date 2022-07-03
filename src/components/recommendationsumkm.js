@@ -39,7 +39,7 @@ class Recommendationsumkm extends Component {
 							<ButtonGroup>
 							{umkms.map((umkm) => (
 							 <DropdownButton as={ButtonGroup} title="UMKM" id="bg-nested-dropdown">
-								<Dropdown.Item key={umkm.id} href={`/Umkms/${umkm.id}`}>{umkm.city}</Dropdown.Item>
+								<Dropdown.Item key={umkm.id} href={`/umkms/${umkm.id}`}>{umkm.city}</Dropdown.Item>
 								</DropdownButton>
 								))}
 								</ButtonGroup>								
