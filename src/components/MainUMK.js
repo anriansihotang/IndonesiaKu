@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import destination from "../data/Destination.js";
 import "../styles/MainHome.css";
 import UMK from "../data/umkm2.js";
 

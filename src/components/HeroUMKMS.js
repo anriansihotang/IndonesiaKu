@@ -8,7 +8,10 @@ const HeroUMKMS = (props) => {
     <div>
       {" "}
       {umkm
-        .filter((umkm) => umkm.id == props.umkmID)
+        .filter((umkm) => {
+			// eslint-disable-next-line eqeqeq
+			return umkm.id == props.umkmID;
+		})
         .map((filteredumkm) => (
           <div
             className="hero-section"

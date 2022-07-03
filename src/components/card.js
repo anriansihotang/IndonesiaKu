@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 import React from "react";
 import "../styles/Destinasi.css";
 import data from "../data/destinasi.json";
