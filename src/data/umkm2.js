@@ -10,18 +10,18 @@ const umkm = [{
 },
 {
   id: 2,
-  nama: "Bali",
-  gambar: baliimg,
-},
-{
-  id: 3,
-  nama: "Bandung",
+  nama: "bandung",
   gambar: maharaniimg,
 },
 {
-  id: 4,
+  id: 3,
   nama: "NTT",
   gambar: nttimg,
+},
+{
+  id: 4,
+  nama: "bali",
+  gambar: baliimg,
 },
 ];
 
