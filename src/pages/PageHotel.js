@@ -17,7 +17,7 @@ class PageHotel extends Component {
     window.scrollTo(0, 0);
 
     if (!this.props.page.pageHotel)
-      this.props.fetchPage(`http://server-staycasion.herokuapp.com/api/v1/member/landing-page`, "pageHotel");
+      this.props.fetchPage(`https://server-staycasion.herokuapp.com/api/v1/member/landing-page`, "pageHotel");
   }
     render() {
       const { page } = this.props;
