@@ -3,7 +3,7 @@ import HeroDestination from "../components/HeroDestination";
 import Recommendationsumkm from "../components/recommendationsumkm";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import  MainUMK from "../components/MainUMK";
+import  MainUMK from "../components/MainUMKM";
 
 class UMKM extends Component {
 	render() {
